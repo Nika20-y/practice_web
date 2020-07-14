@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Open Sans;
+  src: url(OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: Playfair Display;
+  src: url(PlayfairDisplay-VariableFont_wght.ttf);
+}
+@mixin font($fontSize,$lineHeight){
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+}
+@mixin headline($fontSize,$lineHeight){
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  color: #D4C17F;
+
+}

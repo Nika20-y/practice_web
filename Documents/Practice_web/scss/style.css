@@ -1,0 +1,90 @@
+@font-face {
+  font-family: Open Sans;
+  src: url(OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: Playfair Display;
+  src: url(PlayfairDisplay-VariableFont_wght.ttf);
+}
+body {
+  margin: 0;
+}
+
+header {
+  background-image: url("../images/Rectangle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.header__logo {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.12em;
+  margin: 0;
+  padding-top: 4%;
+  width: 134px;
+  display: inline-block;
+}
+
+nav {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  padding-top: 4%;
+  float: right;
+  width: 40%;
+}
+nav li {
+  display: inline;
+  padding-left: 3%;
+}
+nav li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 64px;
+  color: #D4C17F;
+  padding-top: 12%;
+  padding-bottom: 20%;
+}
+
+.header__contacts {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 21px;
+}
+.header__contacts .header__figure {
+  display: inline-flex;
+  justify-content: center;
+  margin-left: 5%;
+}
+.header__contacts .header__figure img {
+  width: 30px;
+  height: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
